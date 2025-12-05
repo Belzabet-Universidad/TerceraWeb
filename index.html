@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facultad de Ciencias Sociales</title>
+    <meta name="description" content="Facultad de Ciencias Sociales — Programas académicos, admisión, investigación y contacto. Sitio responsivo y accesible.">
+
+    <!-- Logo institucional -->
+    <link rel="icon" href="img/institucion.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<!-- Skip link -->
+<a class="visually-hidden-focusable skip-link" href="#contenido-principal">Saltar al contenido</a>
+
+<header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm" aria-label="Menú principal">
+        <div class="container">
+
+            <!-- *** H1 PRINCIPAL DEL SITIO *** -->
+            <a class="navbar-brand fw-bold m-0 text-decoration-none" href="index.html">
+                <h1 class="m-0 fs-4">Facultad de Ciencias Sociales</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="plan-estudios.html">Plan de Estudios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admision.html">Admisión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main id="contenido-principal" tabindex="-1">
+
+    <!-- CARRUSEL -->
+    <section class="container my-4" aria-label="Carrusel de portada">
+
+        <!-- H2 (sección principal) -->
+        <h2 class="visually-hidden">Presentación institucional</h2>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/banner1.jpg" class="d-block w-100" alt="Estudiantes en aula participando">
+                    <div class="carousel-caption d-none d-md-block caption-bg">
+                        <h3>Formando líderes en Ciencias Sociales</h3>
+                        <p>Excelencia académica con vocación humanista.</p>
+                        <a class="btn btn-primary" href="plan-estudios.html">Ver programas</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/banner2.jpg" class="d-block w-100" alt="Docentes realizando investigación">
+                    <div class="carousel-caption d-none d-md-block caption-bg">
+                        <h3>Investigación con impacto social</h3>
+                        <p>Proyectos interdisciplinarios con enfoque real.</p>
+                        <a class="btn btn-primary" href="contacto.html">Contáctanos ahora</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/banner3.jpg" class="d-block w-100" alt="Actividad de trabajo comunitario">
+                    <div class="carousel-caption d-none d-md-block caption-bg">
+                        <h3>Proyección y servicio a la comunidad</h3>
+                        <p>Comprometidos con el desarrollo sostenible.</p>
+                        <a class="btn btn-primary" href="admision.html">Proceso de admisión</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- PRESENTACIÓN -->
+    <section class="container py-5" id="presentacion">
+
+        <!-- H2 (nueva sección) -->
+        <h2 class="text-center mb-4 fw-bold">Bienvenidos a la Facultad de Ciencias Sociales</h2>
+
+        <p class="text-center px-3">
+            Nuestra Facultad tiene como misión formar profesionales competentes,
+            comprometidos con el desarrollo humano, social y cultural del país.
+        </p>
+
+        <p class="text-center px-3">
+            Contamos con docentes calificados, infraestructura moderna y programas
+            que responden a las necesidades actuales de la sociedad.
+        </p>
+
+    </section>
+
+    <!-- OFERTA ACADÉMICA -->
+    <section class="container py-4" aria-labelledby="titProgramas">
+
+        <!-- H2 -->
+        <h2 id="titProgramas" class="fw-bold text-center mb-4">Nuestras Escuelas Profesionales</h2>
+
+        <div class="row g-4">
+
+            <!-- 6 CARDS → Cada una usa H3 -->
+
+            <article class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/sociologia.jpg" class="card-img-top" alt="Clases de sociología">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Sociología</h3>
+                        <p>Analiza la sociedad y sus dinámicas para intervenir en procesos de cambio.</p>
+                        <a class="btn btn-outline-primary btn-sm" href="plan-estudios.html#sociologia">Ver malla</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/antropologia.jpg" class="card-img-top" alt="Trabajo de campo de antropología">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Antropología</h3>
+                        <p>Estudia culturas, comportamientos humanos e identidades sociales.</p>
+                        <a class="btn btn-outline-primary btn-sm" href="plan-estudios.html#antropologia">Ver malla</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/trabajo-social.jpg" class="card-img-top" alt="Intervención comunitaria">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Trabajo Social</h3>
+                        <p>Promueve el bienestar social mediante intervenciones comunitarias.</p>
+                        <a class="btn btn-outline-primary btn-sm" href="plan-estudios.html#trabajo-social">Ver malla</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/historia.jpg" class="card-img-top" alt="Investigación histórica">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Historia</h3>
+                        <p>Analiza procesos históricos y la formación de las sociedades.</p>
+                        <a class="btn btn-outline-primary btn-sm" href="plan-estudios.html#historia">Ver malla</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/ciencia-politica.jpg" class="card-img-top" alt="Debate académico">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Ciencia Política</h3>
+                        <p>Estudia el poder, sistemas políticos y gobernanza.</p>
+                        <a class="btn btn-outline-primary btn-sm" href="plan-estudios.html#ciencia-politica">Ver malla</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/geografia.jpg" class="card-img-top" alt="Análisis territorial">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold">Geografía</h3>
+                        <p>Estudia el territorio, recursos naturales y dinámicas ambientales.</p>
+                        <a class="btn btn-outline-primary btn-sm" href="plan-estudios.html#geografia">Ver malla</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="text-center py-4 bg-light mt-5">
+    <p class="mb-0">© 2025 Facultad de Ciencias Sociales - Todos los derechos reservados.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS propio -->
+<script defer src="js/main.js"></script>
+
+</body>
+</html>
